@@ -1,0 +1,21 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.titles{
+  text-align: center;
+}
+#bottom {
+    position:relative;
+    bottom:0;
+    left:0;
+}
