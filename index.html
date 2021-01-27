@@ -3,11 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="barchart.css">
   <title>Document</title>
 </head>
 <body>
-  <div>
-    hello
+  <div class='container' style="width: 700px;">
+    <!-- The following are the dashes and y-axis -->
+    <div style="text-align: right; padding-bottom: 0px; vertical-align: bottom; border-bottom: 2px solid black; width: 50px">
+      _
+      <div style="height: 5px; border-bottom: 2px solid black;"></div>
+      _
+      <div style="margin-bottom: -2px; padding: 0px; border-bottom: 1px solid black; height: 10px; font-size: 5px"> 10</div>
+      y-axis
+    </div>
+    <!-- The following is the bars themselves-->
+    <div class = 'container' style = "border-bottom: solid black 2px;">
+      <div>
+        <div  style="background:black; width:50px; height: 100px;"></div>
+        <div class='titles' >hi</div>
+      </div>
+      <div>
+        <div style="background:red; width:50px; height: 200px; margin-left: 5px; margin-right: 5px;"></div>
+        <div class='titles'>123</div>
+      </div>
+      <div>
+        <div style="background:rgb(0, 119, 0); width:50px; height: 300px; margin-left: 5px; margin-right: 5px;"></div>
+        <div class='titles'>456</div>
+      </div>
+    </div>
+
   </div>
 </body>
 </html>
