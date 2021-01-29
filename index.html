@@ -12,17 +12,21 @@
     <input type="text" id="name">
     <label for="value">data value</label>
     <input type="number" id="value">
+    <label for="value">data color</label>
+    <input type="color" id="color">
     <br>
     <br>
     <button id='myBtn'>Add Data</button>
   </div>
   <div class='container'>
     <!-- The following are the dashes and y-axis -->
-    <div style="text-align: right; padding-bottom: 0px; vertical-align: bottom; width: 50px">
+    <div class = 'y-axis-text'>
       <!-- The following will probably be generated in the hundreds -->
+      <!--
       <div class = 'y-axis'>2</div>
       <div class = 'y-axis'>1</div>
-      <div style="margin-bottom: 8px; border-bottom: 1px solid black;"></div>
+      -->
+      <div id='baseTic' style="margin-bottom: 8px; border-bottom: 1px solid black;"></div>
       <div style="height: 10px;"></div>
     </div>
     <!-- The following is the bars themselves-->

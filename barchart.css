@@ -28,6 +28,14 @@ body{
   height: 100px;
 }
 
+.y-axis-text{
+  text-align: right;
+  padding-bottom: 0px;
+  vertical-align: bottom;
+  width: 50px;
+}
+
+
 #bottom {
     position:relative;
     bottom:0;
