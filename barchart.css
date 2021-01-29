@@ -11,9 +11,17 @@ body{
   justify-content: flex-start;
   align-items: flex-end;
 }
+
 .titles{
   text-align: center;
 }
+
+.y-axis{
+  border-top: solid black 1px;
+  text-align: left;
+  height: 100px;
+}
+
 #bottom {
     position:relative;
     bottom:0;
