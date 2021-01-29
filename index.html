@@ -7,17 +7,26 @@
   <title>Document</title>
 </head>
 <body>
-  <button id='myBtn'>Build</button>
-  <div class='container' style="width: 700px;">
+  <div class="dataInput">
+    <label for="name">data name</label>
+    <input type="text" id="name">
+    <label for="value">data value</label>
+    <input type="number" id="value">
+    <br>
+    <br>
+    <button id='myBtn'>Add Data</button>
+  </div>
+  <div class='container'>
     <!-- The following are the dashes and y-axis -->
     <div style="text-align: right; padding-bottom: 0px; vertical-align: bottom; width: 50px">
+      <!-- The following will probably be generated in the hundreds -->
       <div class = 'y-axis'>2</div>
       <div class = 'y-axis'>1</div>
       <div style="margin-bottom: 8px; border-bottom: 1px solid black;"></div>
       <div style="height: 10px;"></div>
     </div>
     <!-- The following is the bars themselves-->
-    <div class = 'container' id ='conatainer'>
+    <div class = 'container' id ='container'>
       <!-- <div>
         <div  style="background:black; width:50px; height: 100px;"></div>
         <div class='titles' >hi</div>
@@ -31,7 +40,6 @@
         <div class='titles'>456</div>
       </div> -->
     </div>
-
   </div>
   <script src="node_modules/jquery/dist/jquery.js"></script>
   <script src=buildchart.js></script>

@@ -6,7 +6,13 @@ body{
   align-items: center;
 }
 
+.dataInput{
+  display: flex;
+  flex-direction: column;
+}
+
 .container {
+  margin-top: 100px;
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
